@@ -38,10 +38,47 @@ body {
     margin-left:30%;
 }
 
+.purple-border1 {
+    border: 12px solid #540094;
+    border-radius: 5px;
+    width:40%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left:30%;
+}
+
 /* -- Contact Banner -- */
 
 .box-contact-link {
     padding-bottom: 10vh;
+}
+
+.contact-box-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lead {
+    color: #fff;
+}
+
+/* -- General Buttons -- */
+
+#buttonGen {
+    background-color: #540094;
+    font-weight: bolder;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 20%;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40%;
 }
 
 
