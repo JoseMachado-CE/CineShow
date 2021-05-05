@@ -133,6 +133,7 @@ This contact banner has been created in order to link the person to the contact 
 * [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Axios](https://www.npmjs.com/package/axios)
 
 ![CSS Validation](assets/images/testing_css.PNG)
 
@@ -140,31 +141,27 @@ This contact banner has been created in order to link the person to the contact 
 ### Navigation bar
 
 * **Plan**    
-I want to include a navigation bar which will be sticky top.
-The customer will have the experience of having the navbar whichever the way they go. It give a facility to go to different areas on the website without going to the top of the page with a normal navbar. 
-On small screens the navbar collapses making the customer experience smoothier.
+The plan for the navigation bar was to make it sticky on the top of the page. This same navbar would also collapse once the screen would get smaller such as tablets and phones screens.
 
 * **Implementation**   
-The whole navbar structure has been taken from bootstrap which makes it better displayed on different screens. I have used also css to overwrite a few bits of code in order to make what I wanted.
+The entire navbar structure has been picked up from bootstrap. This choice has been made in order to make the project easygoing and easy once the screens turned into small screens.
 
 * **Test**    
-To test it I have opened the website on different browsers just to see if the navbar would not get off. I also changed the size of the screen using inspect just to see if the navbar would change according to the size of the screen. It was also checked the hambuguer button when the screen had been displayed on mobile screens.
+To test this I have opened the website in different browsers to see whether the navbar would brake. I also changed the size of the screen using inspect to also see whether the navbar would be off. 
+
 
 * **Result**    
-The navigation bar shows nicely like expected on all browsers and devices. 
-I had to notice that the Navigation bar when collapsed and turning into the hamburguer button was a bit too close to the edge of the page so, I had to move it a bit to the left to make better the user experience.
-All the link was working as well. 
+After all tests I could realize that the navbat would not brake. All different types of browsers and sizes of screens have been tested and the navbar would easy expand on large screen and it would easy collapse on small screens. 
 
 * **Verdict**    
 The test has passed all the criteria and works like planned.
 
 ### Modals
 * **Plan**    
-I want to implement 2 modals which are when a customer click on the button "join in" the button takes the customer to a diferent page where the customer could fill out all their details and then proceed with the registration. The other modal would be a feedback to the customer in case they fill out the forms not properly.
+I wanted to implement 2 modals where the first of them would be the client fills out their details in a form and then to have a robot chat where it could answer the client straight away.
 
 * **Implementation**    
-I do not have the proper skills to add these changes I believe. I had to be trained on JS in order to have this feedback to the customer and I believe that I had to know some type of back end and cloud in order to create this sign up area for the customer. 
-I did use bootstrap to link the "join in" button on the website to take the customer to the contact form area.
+The website has a contact form where the user can easily fill their information and even get emails back from the website owner. Although, I believe I do not have enough skills to come up with a robot to respond the users straigh away.
 
 * **Test**    
 I have tested the modal on various devices and browsers. 
@@ -174,25 +171,25 @@ The modal was very successfull taking the customer to where I wanted.
 The modal opened where and when it was supposed to happen.
 
 * **Verdict**    
-The modal works as planned and met all the criteria. 
+The modal works as planned and it met all the criteria. 
 
 
 ### Contact Form 
 * **Plan**    
-I wanted to have a contact form that could take a few details from the customer and then be sent to the website administrator. This would have a "send" button which would do the job to the send the data do the website administration.
+I wanted to have a contact form where the user could go and easily fill out their information in order to receive updates from the website owner.
 
 * **Implementation**    
-To go forward with this form I have taken the structure from the bootstrap website and I just had to change a few things to look like what I wanted. The form has 3 spaces to be filled out by the customer. It comes with a button as well.
+To be able to forward with this plan, I have picked the form code from [bootstrap](https://getbootstrap.com) and then with a little help of CSS3 the form would be created. I also plan to implement emailJS where the customer would really get an email back from the website owner. 
 
 * **Test**    
-When I tested the form I noticed that it would not tell the customer in case they filled out the form wrongly. I believe that some JS skill were missing in order to do this. Then, I remembered that just the required at the end of the input tag could at least do the job without a more sophisticated code as it would be with Javascript. 
-![Gym contact form](assets/images/testing_form.png)
+The test used on the contact form was through filling the form many times with some spaces being left blank in order to see whether the website would acuse the user of a mandatory space that had to be filled out. Another test has been done through emailJS emailing myself to see whether this software would respond me back.
+![Gym contact form]()
 
 * **Result**    
-It works just fine when we use the required in the input tag even though I have not used any JS code.
+It worked actually fine and really had the results that it was expected for.
 
 * **Verdict**    
-The form does not meet all the criteria and works as planned. 
+The form does meet all the criteria and works as planned. 
 
 
 ### Bugs
