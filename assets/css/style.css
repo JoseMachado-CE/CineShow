@@ -22,6 +22,12 @@ body {
     padding-top: 10vh;
 }
 
+/* -- Input search -- */
+#searchText {
+    width: 50%;
+    margin-left: 25%;
+}
+
 /* -- Contact Banner -- */
 
 .box-contact-link {
