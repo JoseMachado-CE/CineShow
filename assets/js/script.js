@@ -8,3 +8,30 @@ $(document).ready(() => {
         e.preventDefault();
     });
 });
+
+function getMovies(searchText) {
+    $('.hide-bottom-cine').hide();
+    axios.get(base_omd + '&s=' + searchText)
+        .then((response) => {
+            console.log(response);
+            let movies = response.data.Search;
+            let output = '';
+            $.each(movies, (index, movie) => {
+                output += `
+          <div class="col-md-3">
+            <div class="text-center well">
+              <img src="${movie.Poster}"  />
+              <h5 class="title-movie-h5">${movie.Title}</h5>
+              <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
+            </div>
+          </div>
+          
+        `;
+            });
+
+            $('#movies').html(output);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+}
