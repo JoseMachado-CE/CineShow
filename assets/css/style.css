@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #242424;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 .hero-image {
@@ -43,6 +46,13 @@ body {
     width: 100%;
     margin-top: 20px;
 }
+
+.title-movie-h5 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
 
 /* -- Header -- */
 
