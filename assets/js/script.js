@@ -41,3 +41,7 @@ function movieSelected(id) {
     window.location = 'movie.html';
     return false;
 }
+
+function getMovie() {
+    
+}
