@@ -23,8 +23,8 @@ body {
 }
 
 .row {
-     margin-right: 0;
-     margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 #movies .col-md-4 .well {
@@ -125,7 +125,7 @@ body {
     border: 2px solid #fff;
     margin-top: 5vh;
     display: block;
-    
+
 }
 
 #buttonGen1 {
