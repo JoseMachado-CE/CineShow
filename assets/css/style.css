@@ -7,21 +7,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #242424;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     font-family: 'Poppins', 'sans-serif';
 }
 
-.hero-image {
-    background: linear-gradient(rgba(0, 48, 43, 0.2), rgb(0, 48, 43));
-    background-image: url('/assets/images/julien-andrieux-Ei0V7r0vcoY-unsplash.jpg');
-    height: 100vh;
-    width: 100%;
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    overflow: visible;
-}
+.hero-image {}
 
 /* Movies after retrived from search API */
 .well {
@@ -31,13 +22,18 @@ body {
     color: #fff;
 }
 
-#movies .col-md-3 .well {
+.row {
+     margin-right: 0;
+     margin-left: 0;
+}
+
+#movies .col-md-4 .well {
     height: 410px;
     margin-top: 5vh;
 }
 
-#movies .col-md-3 img {
-    height: 240px;
+#movies .col-md-4 img {
+    height: 340px;
     margin-top: 0;
 }
 
@@ -128,6 +124,8 @@ body {
     font-weight: bolder;
     border: 2px solid #fff;
     margin-top: 5vh;
+    display: block;
+    
 }
 
 #buttonGen1 {
@@ -154,6 +152,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    min-height: fit-content;
 }
 
 .fa-check-circle {
@@ -188,6 +188,8 @@ footer {
 .social-icon .fab:hover {
     color: #9457eb;
 }
+
+
 
 .purple-border {
     background-color: #9457eb;

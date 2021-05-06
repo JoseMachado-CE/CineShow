@@ -17,17 +17,42 @@ function getMovies(searchText) {
             let movies = response.data.Search;
             let output = '';
             $.each(movies, (index, movie) => {
-                output += `
-          <div class="col-md-3">
-            <div class="text-center well">
-              <img src="${movie.Poster} m-0"  />
-              <h5 class="title-movie-h5">${movie.Title}</h5>
-              <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
-            </div>
-          </div>
-          
-        `;
+                if (movie.Title.length <= 19) {
+                    output += `
+                <div class="row col-md-4 text-center">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-header">
+                                <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title pricing-card-title">${movie.Title}</h4>
+                            </div>
+                            <img src="${movie.Poster} alt="" />
+                        </div>
+                     </div>
+                </div>    
+             `;
+                } else {
+                    output += `
+               <div class="row col-md-4 text-center">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-header">
+                                <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
+                            </div>
+                            <div class="card-bodys">
+                                <h4 class="card-title pricing-card-title">${movie.Title}</h4>
+                            </div>
+                            <img src="${movie.Poster} alt="" />
+                        </div>
+                     </div>
+                </div>      
+             `;
+                }
+
             });
+
 
             $('#movies').html(output);
         })
