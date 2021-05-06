@@ -26,24 +26,27 @@ function getMovies(searchText) {
                                 <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
                             </div>
                             <div class="card-body">
-                                <h4 class="card-title pricing-card-title">${movie.Title}</h4>
+                                <p class="card-title title-movie-p">${movie.Title}</p>
+                                <div><br></div>
                             </div>
-                            <img src="${movie.Poster} alt="" />
+                            
+                            <img class="img-small" src="${movie.Poster} alt="" />
                         </div>
                      </div>
                 </div>    
              `;
                 } else {
                     output += `
-               <div class="row col-md-4 text-center">
-                    <div class="col">
-                        <div class="card shadow-sm">
+               <div class="row col-md-4 text-center box">
+                    <div class="col-1">
+                        <div class="card ">
                             <div class="card-header">
                                 <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
                             </div>
                             <div class="card-bodys">
-                                <h4 class="card-title pricing-card-title">${movie.Title}</h4>
+                                <p class="card-title title-movie-h5">${movie.Title}</p>
                             </div>
+                            
                             <img src="${movie.Poster} alt="" />
                         </div>
                      </div>
@@ -78,7 +81,7 @@ function getMovie() {
             let output = `
         <div class="row">
           <div class="col-md-4">
-            <img src="${movie.Poster}" class="thumbnail">
+            <img src="${movie.Poster}" class="thumbnail img-details">
           </div>
           <div class="col-md-8">
             <h2>${movie.Title}</h2>
