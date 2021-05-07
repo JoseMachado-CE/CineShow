@@ -13,29 +13,23 @@ function getMovies(searchText) {
     $('.hide-bottom-cine').hide();
     axios.get(base_omd + '&s=' + searchText)
         .then((response) => {
-            console.log(response);
-            let movies = response.data.Search;
-            let output = '';
-            $.each(movies, (index, movie) => {
-                if (movie.Title.length <= 19) {
-                    output += `
-                <div class="row col-md-4 text-center">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card-header">
-                                <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-title title-movie-p">${movie.Title}</p>
-                                <div><br></div>
-                            </div>
-                            
-                            <img class="img-small" src="${movie.Poster} alt="" />
-                        </div>
-                     </div>
-                </div>    
+                console.log(response);
+                let movies = response.data.Search;
+                let output = '';
+                $.each(movies, (index, movie) => {
+                        if (movie.Title.length <= 19) {
+                            output += `
+                <div class="centered">
+                    <section class="cards">
+                        <article class="card">
+                            <p><img src="${movie.Poster}" alt="" /></p>
+                            <p>${movie.Title}</p>
+                            <p>${movie.imdbID}</p>
+                        </article><!-- /card-one -->
+                    </section>
+                </div>
              `;
-                } else {
+                            /* } else {
                     output += `
                <div class="row col-md-4 text-center box">
                     <div class="col-1">
@@ -52,33 +46,33 @@ function getMovies(searchText) {
                      </div>
                 </div>      
              `;
-                }
+                }*/
 
-            });
+                        };
 
 
-            $('#movies').html(output);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
-}
+                        $('#movies').html(output);
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                    });
+            }
 
-function movieSelected(id) {
-    sessionStorage.setItem('movieId', id);
-    window.location = 'movie.html';
-    return false;
-}
+            function movieSelected(id) {
+                sessionStorage.setItem('movieId', id);
+                window.location = 'movie.html';
+                return false;
+            }
 
-function getMovie() {
-    let movieId = sessionStorage.getItem('movieId');
+            function getMovie() {
+                let movieId = sessionStorage.getItem('movieId');
 
-    axios.get(base_omd + '&i=' + movieId)
-        .then((response) => {
-            console.log(response);
-            let movie = response.data;
+                axios.get(base_omd + '&i=' + movieId)
+                    .then((response) => {
+                        console.log(response);
+                        let movie = response.data;
 
-            let output = `
+                        let output = `
         <div class="row">
           <div class="col-md-4">
             <img src="${movie.Poster}" class="thumbnail img-details">
@@ -107,9 +101,9 @@ function getMovie() {
         
       `;
 
-            $('#movies').html(output);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
-}
+                        $('#movies').html(output);
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                    });
+            }
