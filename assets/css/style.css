@@ -15,72 +15,32 @@ body {
 .hero-image {}
 
 /* Movies after retrived from search API */
-.well {
+
+.content-box-search{
     background-color: #540094;
-    margin-bottom: 20px;
-    border: 3px solid #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.title-movie-search {
     color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.box-movies-search img {
+    width: 255px;
+    height: 300px; 
+}
+
+.title-movie-search {
+    height: 80px;
+    
 }
 
 .row {
     margin-right: 0;
     margin-left: 0;
 }
-
-#movies .col-md-4 .well {
-    height: 410px;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
-}
-
-#movies .col-md-4 img {
-    height: 300px;
-    margin-top: 0;
-}
-
-#movies .col-md-4 .img-details {
-    height: 400px;
-    
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-
-
-.title-movie-h5 {
-    color: #242424;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-.title-movie-p {
-    color: #242424;
-    text-transform: uppercase;
-    margin-top: 25px;
-}
-
-.cards {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
- 
-.card {
-    flex: 0 1 24%;
-}
-
-.col{
-    flex: 1 0 0%;
-    margin-bottom: 0;
-}
-
-.col-1{
-    flex: 1 0 0%;
-    margin-bottom: 0;
-}
-
-
-
 
 
 /* -- Header -- */
