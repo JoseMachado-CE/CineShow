@@ -126,7 +126,8 @@ body {
     color: #fff;
     font-weight: bolder;
     border: 2px solid #fff;
-    width: 15%;
+    width: 25%;
+    margin: 0.5rem;
 
 }
 
@@ -202,6 +203,7 @@ footer {
     text-transform: uppercase;
     margin-left: 20%;
 }
+
 .title-box {
     margin-bottom: 10%;
 }
@@ -234,7 +236,18 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-    
+
+    .movie-show {
+        margin-top: 3rem;
+    }
+
+    .butao3 {
+        width: 100%
+    }
+
+    .movie-overview {
+        margin-top: 1rem;
+    }
 
     .title-movie-search {
         font-size: 25px;
