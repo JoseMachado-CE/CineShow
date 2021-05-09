@@ -117,6 +117,16 @@ body {
     border: 2px solid #fff;
     margin-top: 5vh;
     display: block;
+}
+
+.butao3 {
+    background-color: #540094;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid #fff;
+    width: 15%;
 
 }
 
@@ -191,6 +201,9 @@ footer {
     color: #fff;
     text-transform: uppercase;
     margin-left: 20%;
+}
+.title-box {
+    margin-bottom: 10%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

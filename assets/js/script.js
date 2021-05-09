@@ -54,10 +54,10 @@ function getMovie() {
 
             let output = `
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md col-lg-4">
             <img src="${movie.Poster}" class="thumbnail">
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-12 col-md col-lg-8">
             <h2>${movie.Title}</h2>
             <ul class="list-group">
               <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
@@ -74,9 +74,9 @@ function getMovie() {
           <div class="well-2">
             <h3>Movie Overview</h3>
             ${movie.Plot}
-            <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butao">View IMDB</a>
-            <a href="index.html" class="btn butao">Go Back To Search</a>
           </div>
+          <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butao3">View IMDB</a>
+            <a href="index.html" class="btn butao3">Go Back To Search</a>
         </div>
         
       `;
