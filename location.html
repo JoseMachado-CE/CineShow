@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <title>Movies Now</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar container-fluid navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" aria-label="Top Brand" href="#"><i class="fas fa-film"></i> <span
+                        class="up-title">Wave Cinemas</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="active1" class="nav-link active" aria-label="Nav-item" href="index.html">Showtime
+                                Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Nav-item" href="#gallery">Cinemas in Town</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Nav-item" href="#location">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6" id="display-here">
+                    <div class="left display-here">
+                        <div class="row buttons-phone-view">
+                            <div class="col-12 col-md-5">
+                                <a id="btn1" href="" class="btn butao3">Savoy</a>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <a id="btn2" href="" class="btn butao3">Cineworld</a>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <a id="btn3" href="" class="btn butao3">Odeon</a>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <a id="btn4" href="" class="btn butao3">IFM Dun Laoghaire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="map" class="col-md-6 mb-2">
+                    <div class="right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="col-12 col-lg-6 text-center social-container">
+            <h2>Find IMDB on the social medias below</h2>
+            <div class="socials">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/sixnationsrugby/" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/sixnationsrugby/?hl=en" target="_blank" class="icon"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div class="social-icon">
+                    <a href="https://twitter.com/SixNationsRugby?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+
+</body>
+
+</html>
