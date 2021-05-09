@@ -27,15 +27,13 @@ body {
     color: #fff;
     text-transform: uppercase;
     padding-top: 10px;
+    height: 75px;
 }
 
 .box-movies-search img {
-    height: 300px;
-}
 
-.title-movie-search {
-    height: 80px;
-
+    height: 100%;
+    width: 100%;
 }
 
 .row {
@@ -198,7 +196,7 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .box-movies-search img {
-        width:100%;
+        width: 100%;
     }
 
     .purple-border {
@@ -222,9 +220,10 @@ footer {
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .box-movies-search img {
-        
-        padding-top: 10px;
+@media only screen and (max-width: 767px) {
+    
+
+    .title-movie-search {
+        font-size: 25px;
     }
 }
