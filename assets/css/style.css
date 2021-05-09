@@ -16,10 +16,11 @@ body {
 
 /* Movies after retrived from search API */
 
-.content-box-search{
+.content-box-search {
     background-color: #540094;
     margin-bottom: 10px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .title-movie-search {
@@ -27,14 +28,14 @@ body {
     text-transform: uppercase;
     padding-top: 10px;
 }
+
 .box-movies-search img {
-    width: 255px;
-    height: 300px; 
+    height: 300px;
 }
 
 .title-movie-search {
     height: 80px;
-    
+
 }
 
 .row {
@@ -194,7 +195,12 @@ footer {
     margin-left: 20%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .box-movies-search img {
+        width:100%;
+    }
+
     .purple-border {
         width: 60%;
         margin-left: 20%;
@@ -213,5 +219,12 @@ footer {
     #buttonGen1 {
         width: 60%;
         margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .box-movies-search img {
+        
+        padding-top: 10px;
     }
 }

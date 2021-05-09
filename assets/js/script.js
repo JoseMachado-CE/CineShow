@@ -19,7 +19,7 @@ function getMovies(searchText) {
           <div class="col-md-4 col-lg-3 box-search-long">
                 <div class="content-box-search">
                     <div class="box-movies-search">
-                        <img src="${movie.Poster}" alt="" />
+                        <img src="${movie.Poster}" class="mx-auto" alt="" />
                     </div>
                     <div class="title-movie-search"
                         <h5>${movie.Title}</h5>
