@@ -12,6 +12,12 @@ body {
     font-family: 'Poppins', 'sans-serif';
 }
 
+.left,
+.right {
+    height: 50vh;
+    width: 100%;
+}
+
 
 
 /* Movies after retrived from search API */
@@ -125,7 +131,7 @@ body {
     color: #fff;
     font-weight: bolder;
     border: 2px solid #fff;
-    width: 25%;
+    width: 100%;
     margin: 0.5rem;
 
 }
@@ -213,6 +219,10 @@ footer {
         width: 100%;
     }
 
+    .butao3 {
+        width: 100%
+    }
+
     .purple-border {
         width: 60%;
         margin-left: 20%;
@@ -226,6 +236,12 @@ footer {
     #buttonGen {
         width: 40%;
         margin-left: 30%;
+    }
+
+    .left,
+    .right {
+        height: 35vh;
+        width: 100%;
     }
 
     #buttonGen1 {
@@ -250,5 +266,11 @@ footer {
 
     .title-movie-search {
         font-size: 25px;
+    }
+
+    .left,
+    .right {
+        height: 35vh;
+        width: 100%;
     }
 }

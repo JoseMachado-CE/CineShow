@@ -7,6 +7,7 @@ $(document).ready(() => {
         e.preventDefault();
     });
 });
+
 function getMovies(searchText) {
     $('.hide-bottom-cine').hide();
     axios.get(base_omd + '&s=' + searchText)
@@ -36,6 +37,7 @@ function getMovies(searchText) {
             console.log(err);
         });
 }
+
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id);
     window.location = 'movie.html';
@@ -44,7 +46,7 @@ function movieSelected(id) {
 
 function getMovie() {
 
- 
+
     let movieId = sessionStorage.getItem('movieId');
 
     axios.get(base_omd + '&i=' + movieId)
@@ -127,7 +129,7 @@ $(document).ready(function () {
                             <p class="lead">17 O'Connell Street Upper, North City, Dublin 1</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="location.html">Back to cinemas</a>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -160,7 +162,7 @@ $(document).ready(function () {
                             <p class="lead">The Parnell Centre, Parnell St, Rotunda, Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://www.cineworld.ie/#/</p>
-                            <a type="submit" class="btn butao2" href="location.html">Back to cinemas</a>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -193,7 +195,7 @@ $(document).ready(function () {
                             <p class="lead">The Parnell Centre, Parnell St, Rotunda, Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://www.cineworld.ie/#/</p>
-                            <a type="submit" class="btn butao2" href="location.html">Back to cinemas</a>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5 low-cont">
@@ -212,26 +214,32 @@ $(document).ready(function () {
         marker = marker3.addTo(layerGroup);
         marker.bindPopup("IMC Dun Laoghaire Cinemas").openPopup();
         $('#display-here').html(`
-                     <div class="container">
+                    <div class="container">
                         <div class="row featurette low-cont">
                             <div class="col-md-7">
-                        <h2 class="featurette-heading">IMC Dun Laoghaire Cinemas</h2>
-                        <figure>
-                            <blockquote class="blockquote">
-                                <p class="lead">IMC Dun Laoghaire Cinemas
-                                </p>
-                            </blockquote>
-                            <h5>Address</h5>
-                            <p class="lead">Bloomfield Shopping Centre, George's Street Lower, Dún Laoghaire, Co. Dublin</p>
-                            <h5>Website</h5>
-                            <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="location.html">Back to cinemas</a>
-                        </figure>
+                                <h2 class="featurette-heading">IMC Dun Laoghaire Cinemas</h2>
+                            </div>
+                        <div class="row">
+                            <figure>
+                                <blockquote class="blockquote">
+                                    <p class="lead">IMC Dun Laoghaire Cinemas
+                                    </p>
+                                </blockquote>
+                                <h5>Address</h5>
+                                <p class="lead">Bloomfield Shopping Centre, George's Street Lower, Dún Laoghaire, Co. Dublin</p>
+                                <h5>Website</h5>
+                                <p class="lead">https://imccinemas.ie/</p>
+                                <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            </figure>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 low-cont">
+                                <img class="img-fluid mx-auto img-locatio-cine d-none d-md-block" alt="" src="DL.jpg">
+                            </div>
+                        </div>
+                    
+                    
                     </div>
-                    <div class="col-md-5 low-cont">
-                        <img class="img-fluid mx-auto img-locatio-cine d-none d-md-block" alt="" src="DL.jpg">
-                    </div>
-            </div>
                 `);
     })
 })
