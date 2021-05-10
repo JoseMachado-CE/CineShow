@@ -78,6 +78,13 @@ body {
     margin-left: 30%;
 }
 
+.text-center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 /* -- Contact Banner -- */
 
 .box-contact-link {
@@ -247,9 +254,14 @@ footer {
         width: 60%;
         margin-left: 20%;
     }
+
+    #buttonGen1 {
+        margin-left: 5%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+
 
     .movie-show {
         margin-top: 3rem;
