@@ -79,7 +79,7 @@ function getMovie() {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 img-poster-md">
                         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butao3">View IMDB</a>
                     </div>
                 </div>
