@@ -283,12 +283,8 @@ footer {
     }
 
     #buttonGen1 {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #buttonGen1 {
-        margin-left: 5%;
+        width: 30%;
+        margin-left: 30%;
     }
 
     footer {
@@ -316,7 +312,6 @@ footer {
     }
 
 
-
     .title-movie-search {
         font-size: 25px;
     }
@@ -341,5 +336,10 @@ footer {
     #contact {
         width: 80%;
         margin-left: 10%;
+    }
+
+    #buttonGen1 {
+        width: 30%;
+        margin-left: 35%;
     }
 }
