@@ -14,8 +14,9 @@ body {
 
 .left,
 .right {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
+    margin-top: 70px;
 }
 
 
@@ -103,6 +104,16 @@ body {
     color: #fff;
 }
 
+#contact {
+    background-color: #9457eb;
+    display: block;
+    min-height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15%;
+    border: 12px solid #540094;
+    border-radius: 5px;
+}
 
 /* -- General Buttons -- */
 
@@ -168,6 +179,8 @@ footer {
     justify-content: center;
     overflow: hidden;
     min-height: fit-content;
+    margin-top: 40px;
+
 }
 
 .fa-check-circle {
@@ -284,7 +297,7 @@ footer {
         margin-top: 1rem;
     }
 
-    
+
 
     .title-movie-search {
         font-size: 25px;
