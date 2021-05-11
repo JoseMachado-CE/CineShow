@@ -115,6 +115,24 @@ body {
     border-radius: 5px;
 }
 
+.btn-contact {
+    background-color: #9457eb;
+    border: 2px solid #fff;
+    width: 25%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* -- General Buttons -- */
 
 #buttonGen {
@@ -312,5 +330,16 @@ footer {
 
     footer {
         margin-top: 40px;
+    }
+
+    .btn-contact {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #contact {
+        width: 80%;
+        margin-left: 10%;
     }
 }
