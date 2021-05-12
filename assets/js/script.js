@@ -25,7 +25,7 @@ function getMovies(searchText) {
                     <div class="title-movie-search"
                         <h5>${movie.Title}</h5>
                     </div>
-                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details</a>
+                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details <i class="fas fa-film"></i></a>
                 </div>
           </div>
           
