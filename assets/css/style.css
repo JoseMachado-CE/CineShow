@@ -19,7 +19,15 @@ body {
     margin-top: 70px;
 }
 
+.navbar  {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 15vh;
+}
 
+.navbar-nav a {
+    font-size: 20px;
+}
 
 /* Movies after retrived from search API */
 
@@ -95,6 +103,7 @@ body {
 
 }
 
+
 /* -- Contact Banner -- */
 
 .box-contact-link {
@@ -107,10 +116,13 @@ body {
     color: #fff;
     text-align: center;
     margin-top: 10px;
+    width: max-content;
+    
 }
 
 .lead {
     color: #fff;
+    
 }
 
 #contact {
@@ -303,6 +315,10 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .contact-box-title {
+        margin-left: 10%
+    }
 
     .box-movies-search img {
         width: 100%;
