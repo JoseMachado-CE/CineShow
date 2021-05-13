@@ -1,17 +1,18 @@
   
 function sendMail(contactForm) {
-    emailjs.send("gmail", "template_9zeau7y", {
-        "from_name": contactForm.fullname.value,
-        "from_email": contactForm.email.value,
-        "message": contactForm.projectsummary.value
+    var tempParams = {
+        from_name:document.getElementById('fullNameId').value,
+        from_email:document.getElementById('exampleInputEmail1').value,
+        message:document.getElementById('exampleFormControlTextarea1').value,
+    };
+
+    emailjs.send('service_nujzdlk', 'template_qonn19p', tempParams)
+    .then(function(res) {
+        console.log('success', res.status);
+        
     })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  
+    document.getElementById("form").reset();
+    
 }
+
+
