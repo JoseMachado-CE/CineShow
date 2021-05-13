@@ -67,9 +67,6 @@ body {
 
 /* -- Header -- */
 
-.box-main-movie {
-    padding-top: 10vh;
-}
 
 /* -- Input search -- */
 #searchText {
@@ -131,9 +128,10 @@ body {
     min-height: 500px;
     width: 60%;
     margin-left: 20%;
-    margin-top: 15%;
     border: 12px solid #540094;
     border-radius: 5px;
+    margin-bottom: 15%;
+    margin-top: 5%;
 }
 
 .btn-contact {
@@ -159,6 +157,7 @@ body {
     color: rgb(243, 8, 8);
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 .sucsMensage {
@@ -311,7 +310,7 @@ footer {
 
     .left,
     .right {
-        height: 40vh;
+        height: 30vh;
         width: 100%;
         margin-top: 5vh;
     }
@@ -349,7 +348,9 @@ footer {
         margin-top: 1rem;
     }
 
-
+    #map {
+        margin-top: 20px;
+    }
     .title-movie-search {
         font-size: 25px;
     }
