@@ -81,32 +81,32 @@ $(document).ready(function () {
         layerGroup.clearLayers();
         map.closePopup();
         marker = marker2.addTo(layerGroup);
-        marker.bindPopup("Odeon Cinemas - Stillorgan").openPopup();
+        marker.bindPopup("ODEON").openPopup();
         $('#display-here').html(`
-                    <div class="container">
+                     <div class="container">
                         <div class="row featurette">
                             <div class="col-md-7 low-cont">
-                                <h2 class="featurette-heading">Odeon</h2>
-                            
+                        <h2 class="featurette-heading">ODEON Cinemas</h2>
                         <figure>
                             <blockquote class="blockquote">
-                                <p class="lead">Odeon Cinemas
+                                <p class="lead">ODEON Cinemas
                                 </p>
                             </blockquote>
                             <h5>Address</h5>
                             <p class="lead">The Parnell Centre, Parnell St, Rotunda, Dublin</p>
                             <h5>Website</h5>
-                            <p class="lead">https://www.cineworld.ie/#/</p>
+                            <p class="lead">https://imccinemas.ie/</p>
                             <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
-                    <div class="col-md-5 low-cont">
-                        <img class="img-fluid mx-auto img-locatio-cine d-none d-md-block" alt="" src="OS.jpeg">
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
                     </div>
+                    
             </div>
                 `);
     })
-})
+});
 
 $(document).ready(function () {
     $('#btn4').on('click', function (e) {
@@ -114,34 +114,29 @@ $(document).ready(function () {
         layerGroup.clearLayers();
         map.closePopup();
         marker = marker3.addTo(layerGroup);
-        marker.bindPopup("IMC Dun Laoghaire Cinemas").openPopup();
+        marker.bindPopup("IFM Dun Laoghaire").openPopup();
         $('#display-here').html(`
-                    <div class="container">
-                        <div class="row featurette low-cont">
-                            <div class="col-md-7">
-                                <h2 class="featurette-heading">IMC Dun Laoghaire Cinemas</h2>
-                            </div>
-                        <div class="row">
-                            <figure>
-                                <blockquote class="blockquote">
-                                    <p class="lead">IMC Dun Laoghaire Cinemas
-                                    </p>
-                                </blockquote>
-                                <h5>Address</h5>
-                                <p class="lead">Bloomfield Shopping Centre, George's Street Lower, Dún Laoghaire, Co. Dublin</p>
-                                <h5>Website</h5>
-                                <p class="lead">https://imccinemas.ie/</p>
-                                <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
-                            </figure>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 low-cont">
-                                <img class="img-fluid mx-auto img-locatio-cine d-none d-md-block" alt="" src="DL.jpg">
-                            </div>
-                        </div>
-                    
-                    
+                     <div class="container">
+                        <div class="row featurette">
+                            <div class="col-md-7 low-cont">
+                        <h2 class="featurette-heading">IFM Cinemas Dun Laoghaire</h2>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p class="lead">IMC Dun Laoghaire Cinemas
+                                </p>
+                            </blockquote>
+                            <h5>Address</h5>
+                            <p class="lead">Bloomfield Shopping Centre, George's Street Lower, Dún Laoghaire, Co. Dublin</p>
+                            <h5>Website</h5>
+                            <p class="lead">https://imccinemas.ie/</p>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                        </figure>
                     </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                    </div>
+                    
+            </div>
                 `);
     })
-})
+});
