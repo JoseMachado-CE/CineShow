@@ -154,6 +154,18 @@ body {
     margin-top: 10px;
 }
 
+/* -- Contact form -- */
+.errMensage {
+    color: rgb(243, 8, 8);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sucsMensage {
+    color: rgb(27, 223, 27);
+    text-transform: uppercase;
+}
+
 /* -- General Buttons -- */
 
 #buttonGen {
