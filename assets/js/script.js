@@ -14,12 +14,16 @@ function getMovies(searchText) {
         .then((response) => {
             console.log(response);
             let movies = response.data.Search;
-           
-            if(response.data.Error == 'Movie not found!') {
-                let output0 = '';
-                alert('Movie not found, please choose another movie. - CineShow');
-                console.log('This seach did not get any movie.');   
-                
+
+            if (response.data.Error == 'Movie not found!') {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'Movie not found. Search for another movie, please. - CineShow',
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                })
+                console.log('This seach did not get any movie.');
+
             } else {
                 let output = '';
                 $.each(movies, (index, movie) => {
@@ -38,7 +42,7 @@ function getMovies(searchText) {
                     `;
                 });
                 $('#movies').html(output);
-                
+
             }
         })
         .catch((err) => {
@@ -100,6 +104,3 @@ function getMovie() {
             console.log(err);
         });
 };
-
-
-
