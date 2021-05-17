@@ -19,10 +19,10 @@ body {
     margin-top: 70px;
 }
 
-.navbar  {
+.navbar {
     text-transform: uppercase;
     letter-spacing: 2px;
-    height: 15vh;
+    margin-bottom: 10vh;
 }
 
 .navbar-nav a {
@@ -114,12 +114,12 @@ body {
     text-align: center;
     margin-top: 10px;
     width: max-content;
-    
+
 }
 
 .lead {
     color: #fff;
-    
+
 }
 
 #contact {
@@ -325,15 +325,22 @@ footer {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
 
     .contact-box-title {
         margin-left: 10%
     }
 
+
+
     .box-movies-search img {
         width: 100%;
         height: 100%;
+    }
+
+    #searchText {
+        width: 70%;
+        margin-left: 15%;
     }
 
     .movie-show {
@@ -351,6 +358,7 @@ footer {
     #map {
         margin-top: 20px;
     }
+
     .title-movie-search {
         font-size: 25px;
     }
@@ -385,5 +393,21 @@ footer {
     #buttonGen1 {
         width: 30%;
         margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    #buttonGen {
+        width: 35%;
+        margin-left: 32.5%;
+    }
+
+    #searchText {
+        width: 80%;
+        margin-left: 10%;
     }
 }
