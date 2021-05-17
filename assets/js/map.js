@@ -5,17 +5,19 @@ L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=AAxwEAVTb
 
 var layerGroup = L.layerGroup().addTo(map);
 
-var marker0 = L.marker([53.3513, -6.2605])
-var marker1 = L.marker([53.3503, -6.2677])
-var marker2 = L.marker([53.2889, -6.2220])
-var marker3 = L.marker([53.2934, -6.1397])
+var marker1 = L.marker([53.3513, -6.2605])
+var marker2 = L.marker([53.3503, -6.2677])
+var marker3 = L.marker([53.2889, -6.2220])
+var marker4 = L.marker([53.3903, -6.4050])
+var marker5 = L.marker([53.3910, -6.1928])
+var marker6 = L.marker([53.2934, -6.1397])
 
 $(document).ready(function () {
     $('#btn1').on('click', function (e) {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker0.addTo(layerGroup);
+        marker = marker1.addTo(layerGroup);
         marker.bindPopup("Savoy Cinema").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -48,7 +50,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker1.addTo(layerGroup);
+        marker = marker2.addTo(layerGroup);
         marker.bindPopup("Cineworld Cinemas").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -80,20 +82,20 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker2.addTo(layerGroup);
-        marker.bindPopup("ODEON").openPopup();
+        marker = marker3.addTo(layerGroup);
+        marker.bindPopup("ODEON Stillorgan").openPopup();
         $('#display-here').html(`
                      <div class="container">
                         <div class="row featurette">
                             <div class="col-md-7 low-cont">
-                        <h2 class="featurette-heading">ODEON Cinemas</h2>
+                        <h2 class="featurette-heading">ODEON Stillorgan</h2>
                         <figure>
                             <blockquote class="blockquote">
-                                <p class="lead">ODEON Cinemas
+                                <p class="lead">ODEON Stillorgan
                                 </p>
                             </blockquote>
                             <h5>Address</h5>
-                            <p class="lead">The Parnell Centre, Parnell St, Rotunda, Dublin</p>
+                            <p class="lead">Stillorgan Plaza, Lower Kilmacud Rd, Stillorgan, Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
                             <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
@@ -113,7 +115,73 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker3.addTo(layerGroup);
+        marker = marker4.addTo(layerGroup);
+        marker.bindPopup("ODEON Blanchardstown").openPopup();
+        $('#display-here').html(`
+                     <div class="container">
+                        <div class="row featurette">
+                            <div class="col-md-7 low-cont">
+                        <h2 class="featurette-heading">ODEON Blanchardstown</h2>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p class="lead">ODEON Blanch
+                                </p>
+                            </blockquote>
+                            <h5>Address</h5>
+                            <p class="lead">Blanchardstown Shopping Centre, Blanchardstown Road South, Blanchardstown, Co. Dublin</p>
+                            <h5>Website</h5>
+                            <p class="lead">https://imccinemas.ie/</p>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                        </figure>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                    </div>
+                    
+            </div>
+                `);
+    })
+});
+
+$(document).ready(function () {
+    $('#btn5').on('click', function (e) {
+        e.preventDefault();
+        layerGroup.clearLayers();
+        map.closePopup();
+        marker = marker5.addTo(layerGroup);
+        marker.bindPopup("ODEON Coolock").openPopup();
+        $('#display-here').html(`
+                     <div class="container">
+                        <div class="row featurette">
+                            <div class="col-md-7 low-cont">
+                        <h2 class="featurette-heading">ODEON Coolock</h2>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p class="lead">ODEON Coolock
+                                </p>
+                            </blockquote>
+                            <h5>Address</h5>
+                            <p class="lead">84 Malahide Rd, Donaghmede, Coolock, Co. Dublin</p>
+                            <h5>Website</h5>
+                            <p class="lead">https://imccinemas.ie/</p>
+                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                        </figure>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                    </div>
+                    
+            </div>
+                `);
+    })
+});
+
+$(document).ready(function () {
+    $('#btn6').on('click', function (e) {
+        e.preventDefault();
+        layerGroup.clearLayers();
+        map.closePopup();
+        marker = marker6.addTo(layerGroup);
         marker.bindPopup("IFM Dun Laoghaire").openPopup();
         $('#display-here').html(`
                      <div class="container">
