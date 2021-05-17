@@ -84,7 +84,7 @@ This website has been created with the purpose of showing people a great variety
 
 I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 different wireframes for my website.
 
-### [Desktop Wireframe](wireframes/desktop_WF1-MS1.pdf)
+### [Desktop Wireframe](wireframes/cineshow_desktop.pdf)
 ### [Iphone Wireframe](wireframes/iphone_WF1-MS1.pdf)
 ### [Tablet Wireframe](wireframes/tablet_WF1-MS1.pdf)
 
