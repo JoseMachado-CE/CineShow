@@ -259,15 +259,9 @@ footer {
     color: inherit;
 }
 
-.socials-hover-color {
-    color: #00302b;
-}
-
 .social-icon .fab:hover {
     color: #9457eb;
 }
-
-
 
 .purple-border {
     background-color: #9457eb;

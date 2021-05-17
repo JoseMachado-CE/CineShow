@@ -70,7 +70,8 @@ This website has been created with the purpose of showing people a great variety
 
   ![Color Scheme](assets/images/palette.png)
   * rgb(238, 174, 202), radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) - Background color of entire website.
-  * #242424 - Black used for the header and footer.
+  * rgb(243, 8, 8); - Red used for error message.
+  * rgb(27, 223, 27) - Green used for success message.
   * #540094 - Purple used for the buttons and some of the borders.
   * #9457eb - Purple used for the contact form and some of the borders.
   * #fff - White used for all the letters.
