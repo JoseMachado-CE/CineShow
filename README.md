@@ -136,6 +136,9 @@ This contact banner has been created in order to link the person to the contact 
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 * [Axios](https://www.npmjs.com/package/axios)
+* [EmailJS](https://emailjs.com)
+* [Leaflet](https://leafletjs.com)
+* [SweetAlert](https://sweetalertjs.js.org)
 
 ![CSS Validation](assets/images/testing_css.PNG)
 
@@ -256,7 +259,7 @@ After writing the code I would save and then I would commit it and finally I wou
 1. Navigate to the repository on github and click **Settings**.
 1. From there, go to the **Source section** within the Github Pages section.
 1. Select **master branch** on the dropdown menu, and click save.
-1. Now the website is live on **https://github.com/JoseMachado-CE/Blast**
+1. Now the website is live on **https://github.com/JoseMachado-CE/CineShow**
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
 To run the project locally:
@@ -269,11 +272,9 @@ To run the project locally:
 
 ## Credits
 
-I used the [Flyefit](https://www.flyefit.ie/) website for inspirational ideas.
-Some of the images of the website have been taken from [google images](https://google.com) and a few other images have been given to me through my girlfriend who does Crossfit.
-One of the 2 iframe has been take from [google maps](https://www.google.com/maps/) and the other iframe was taken from [youtube](https://youtube.com).
+The photo that I have taken to upload into this project is from [bootstrap](https://getbootstrap.com).
+I also have utilized the API from [OMDB](https://omdbapi.com) where you can movies from all around the world.
 
-I wanted to thank my mentor [https://github.com/eventyret](https://dehlin.dev/), for giving me all the support needed to finish the website.
-I wanted to thank my girlfriend for letting me use my free time after work to get really involved in my project.
+I wanted to thank again my tutor [https://github.com/eventyret](https://dehlin.dev/), for giving me all the support needed to finish the website.
 I wanted to thank also Code Institute and Slack for all support.
 And God for make this all achieveable.

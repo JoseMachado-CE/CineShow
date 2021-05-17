@@ -188,7 +188,7 @@ body {
     color: #fff;
     font-weight: bolder;
     border: 2px solid #fff;
-    margin-top: 5vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
 }
@@ -325,7 +325,9 @@ footer {
         margin-left: 10%
     }
 
-
+    .navbar-brand {
+        font-size: 1rem;
+    }
 
     .box-movies-search img {
         width: 100%;
