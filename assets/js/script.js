@@ -14,24 +14,32 @@ function getMovies(searchText) {
         .then((response) => {
             console.log(response);
             let movies = response.data.Search;
-            let output = '';
-            $.each(movies, (index, movie) => {
-                output += `
-          <div class="col-md-4 col-lg-3 box-search-long">
-                <div class="content-box-search">
-                    <div class="box-movies-search">
-                        <img src="${movie.Poster}" alt="" />
-                    </div>
-                    <div class="title-movie-search"
-                        <h5>${movie.Title}</h5>
-                    </div>
-                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details <i class="fas fa-film"></i></a>
-                </div>
-          </div>
-          
-        `;
-            });
-            $('#movies').html(output);
+           
+            if(response.data.Error == 'Movie not found!') {
+                let output0 = '';
+                alert('Movie not found, please choose another movie. - CineShow');
+                console.log('This seach did not get any movie.');   
+                
+            } else {
+                let output = '';
+                $.each(movies, (index, movie) => {
+                    output += `
+                        <div class="col-md-4 col-lg-3 box-search-long">
+                                <div class="content-box-search">
+                                    <div class="box-movies-search">
+                                        <img src="${movie.Poster}" alt="" />
+                                    </div>
+                                    <div class="title-movie-search"
+                                        <h5>${movie.Title}</h5>
+                                    </div>
+                                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details <i class="fas fa-film"></i></a>
+                                </div>
+                        </div>
+                    `;
+                });
+                $('#movies').html(output);
+                
+            }
         })
         .catch((err) => {
             console.log(err);
@@ -45,15 +53,12 @@ function movieSelected(id) {
 }
 
 function getMovie() {
-
-
     let movieId = sessionStorage.getItem('movieId');
 
     axios.get(base_omd + '&i=' + movieId)
         .then((response) => {
             console.log(response);
             let movie = response.data;
-
             let output = `
                 <div class="row">
                     <div class="col-sm-12 col-md col-lg-4">
