@@ -84,9 +84,9 @@ This website has been created with the purpose of showing people a great variety
 
 I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 different wireframes for my website.
 
-### [Desktop Wireframe](wireframes/cineshow_desktop.pdf)
-### [Iphone Wireframe](wireframes/iphone_WF1-MS1.pdf)
-### [Tablet Wireframe](wireframes/tablet_WF1-MS1.pdf)
+### [Desktop Wireframe](wireframes/csdesktop.png)
+### [Tablet Wireframe](wireframes/ipad_wireframe.png)
+### [Phone Wireframe](wireframes/phone_wireframe.png)
 
 * The tablet wireframe has changed a little bit. The schedule panels will be displayed in vertical.
 * The iphone wireframe and the desktop wireframe have changed only the contact button which got a bit smaller.
