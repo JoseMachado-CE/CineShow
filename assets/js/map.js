@@ -1,3 +1,6 @@
+/*jshint esversion: 6 */
+
+var L;
 var map = L.map('map').setView([53.3498, -6.2603], 13);
 L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=AAxwEAVTbe7dzG21ncPT', {
     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
@@ -5,19 +8,19 @@ L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=AAxwEAVTb
 
 var layerGroup = L.layerGroup().addTo(map);
 
-var marker1 = L.marker([53.3513, -6.2605])
-var marker2 = L.marker([53.3503, -6.2677])
-var marker3 = L.marker([53.2889, -6.2220])
-var marker4 = L.marker([53.3903, -6.4050])
-var marker5 = L.marker([53.3910, -6.1928])
-var marker6 = L.marker([53.2934, -6.1397])
+var marker1 = L.marker([53.3513, -6.2605]);
+var marker2 = L.marker([53.3503, -6.2677]);
+var marker3 = L.marker([53.2889, -6.2220]);
+var marker4 = L.marker([53.3903, -6.4050]);
+var marker5 = L.marker([53.3910, -6.1928]);
+var marker6 = L.marker([53.2934, -6.1397]);
 
 $(document).ready(function () {
     $('#btn1').on('click', function (e) {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker1.addTo(layerGroup);
+        let marker = marker1.addTo(layerGroup);
         marker.bindPopup("Savoy Cinema").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -42,7 +45,7 @@ $(document).ready(function () {
                     
             </div>
                 `);
-    })
+    });
 });
 
 $(document).ready(function () {
@@ -74,8 +77,8 @@ $(document).ready(function () {
                     </div>
             </div>
                 `);
-    })
-})
+    });
+});
 
 $(document).ready(function () {
     $('#btn3').on('click', function (e) {
@@ -107,7 +110,7 @@ $(document).ready(function () {
                     
             </div>
                 `);
-    })
+    });
 });
 
 $(document).ready(function () {
@@ -140,7 +143,7 @@ $(document).ready(function () {
                     
             </div>
                 `);
-    })
+    });
 });
 
 $(document).ready(function () {
@@ -173,7 +176,7 @@ $(document).ready(function () {
                     
             </div>
                 `);
-    })
+    });
 });
 
 $(document).ready(function () {
@@ -206,5 +209,5 @@ $(document).ready(function () {
                     
             </div>
                 `);
-    })
+    });
 });

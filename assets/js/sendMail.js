@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 function sendMail(contactForm) {
     var tempParams = {
         from_name:$('#fullNameId').val(),
@@ -28,5 +30,5 @@ function sendMail(contactForm) {
                 $('#form')[0].reset();
                 return true;
             }
-        })
+        });
 }

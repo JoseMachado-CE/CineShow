@@ -1,5 +1,8 @@
-const base_omd = 'https://www.omdbapi.com/?apikey=9473d9c9';
+/*jshint esversion: 6 */
+
 const api_key = '9473d9c9';
+const base_omd = `https://www.omdbapi.com/?apikey=${api_key}`;
+
 $(document).ready(() => {
     $('#buttonGen').on('click', (e) => {
         let searchText = $('#searchText').val();
@@ -21,7 +24,7 @@ function getMovies(searchText) {
                     text: 'Movie not found. Search for another movie, please. - CineShow',
                     icon: 'error',
                     confirmButtonText: 'Ok'
-                })
+                });
                 console.log('This seach did not get any movie.');
 
             } else {
@@ -103,4 +106,4 @@ function getMovie() {
         .catch((err) => {
             console.log(err);
         });
-};
+}
