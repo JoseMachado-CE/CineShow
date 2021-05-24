@@ -16,15 +16,15 @@ function sendMail(contactForm) {
                 $('#exampleInputEmail1').focus();
                 return false;
             } else if ($('exampleFormControlTextarea1').val() == '') {
-                $('#text-response1').html('<p class="errMensage">Your need to leave a mensage</p>');
+                $('#response-text').html('<p class="errMensage">Your need to leave a mensage</p>');
                 $('#exampleFormControlTextarea1').focus();
                 return false;
             } else {
                 console.log('success', res.status);
-                $('#text-response').html('<p class="sucsMensage">Your text has been sent</p>');
+                $('.text-response').html('<p class="sucsMensage">Your text has been sent</p>');
                 $('#name-response').hide();
                 $('#email-response').hide();
-                $('#text-response1').hide();
+                $('#response-text').hide();
                 $('#form')[0].reset();
                 return true;
             }

@@ -15,8 +15,8 @@
     </script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
         (function () {
             emailjs.init("user_YS99v9kYYdCb6C3plPPpf");
         })();
@@ -68,27 +68,26 @@
                 <div class="mb-3">
                     <label for="fullNameId" class="form-label">Full Name</label>
                     <input type="text" name="fullname" class="form-control" id="fullNameId"
-                        aria-describedby="fullNameHelp" required>
+                         required>
                     <div id="name-response"></div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="text" name="email" class="form-control" id="exampleInputEmail1"
-                        aria-describedby="emailHelp" required>
+                         required>
                         <div id="email-response"></div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" name="projectsummary" id="exampleFormControlTextarea1" rows="3"
                         required></textarea>
-                        <div id="text-response"></div>
-                        <div id="text-response1"></div>
+                        <div id="response-text"></div>
                 </div>
             </form>
             <div>
                 <button id="newsletterform" onclick="sendMail()" type="submit" class="btn btn-contact">Submit</button>
             </div>
-            <div id="text-response"></div>
+            <div class="text-response"></div>
         </div>
     </section>
 
@@ -120,8 +119,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
-    <script type="text/javascript" src="assets/js/sendMail.js"></script>
+    <script  src="assets/js/script.js"></script>
+    <script  src="assets/js/sendMail.js"></script>
 </body>
 
 </html>
