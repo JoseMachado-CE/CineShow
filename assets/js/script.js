@@ -1,32 +1,25 @@
 /*jshint esversion: 6 */
 
-const api_key = '9473d9c9';
-const base_omd = `https://www.omdbapi.com/?apikey=${api_key}`;
+const apiKey = '9473d9c9';
+const baseUrl = `https://www.omdbapi.com/?apikey=${apiKey}`;
 
 $(document).ready(() => {
     $('#buttonGen').on('click', (e) => {
-        let searchText = $('#searchText').val();
-        getMovies(searchText);
         e.preventDefault();
+        let movieName = $('#searchText').val();
+        getMovies(movieName);
     });
 });
 
-function getMovies(searchText) {
+function getMovies(movieName) {
     $('.hide-bottom-cine').hide();
-    axios.get(base_omd + '&s=' + searchText)
-        .then((response) => {
-            console.log(response);
-            let movies = response.data.Search;
-
-            if (response.data.Error == 'Movie not found!') {
-                Swal.fire({
-                    title: 'Error!',
-                    text: 'Movie not found. Search for another movie, please. - CineShow',
-                    icon: 'error',
-                    confirmButtonText: 'Ok'
-                });
-                console.log('This seach did not get any movie.');
-
+    fetch(`${baseUrl}&s=${movieName}`)
+        .then((res) => res.json())
+        .then((data) => {
+            console.log(data);
+            let movies = data.Search;
+            if (data.Response == 'False') {
+                displayError('Movie not found. Search for another movie, please. - CineShow');
             } else {
                 let output = '';
                 $.each(movies, (index, movie) => {
@@ -39,18 +32,19 @@ function getMovies(searchText) {
                                     <div class="title-movie-search"
                                         <h5>${movie.Title}</h5>
                                     </div>
+                               
                                     <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details <i class="fas fa-film"></i></a>
                                 </div>
                         </div>
                     `;
                 });
                 $('#movies').html(output);
-
             }
         })
         .catch((err) => {
             console.log(err);
         });
+
 }
 
 function movieSelected(id) {
@@ -62,10 +56,11 @@ function movieSelected(id) {
 function getMovie() {
     let movieId = sessionStorage.getItem('movieId');
 
-    axios.get(base_omd + '&i=' + movieId)
-        .then((response) => {
-            console.log(response);
-            let movie = response.data;
+    fetch(`${baseUrl}&i=+${movieId}`)
+        .then((res) => res.json())
+        .then((data) => {
+            console.log(data);
+            let movie = data;
             let output = `
                 <div class="row">
                     <div class="col-sm-12 col-md col-lg-4">
@@ -106,4 +101,13 @@ function getMovie() {
         .catch((err) => {
             console.log(err);
         });
+}
+
+function displayError(message) {
+    Swal.fire({
+        title: 'Error!',
+        text: `${message}`,
+        icon: 'error',
+        confirmButtonText: 'Ok',
+    });
 }
