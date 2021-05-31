@@ -187,6 +187,7 @@ To be able to forward with this plan, I have picked the form code from [bootstra
 
 * **Test**    
 The test used on the contact form was through filling the form many times with some spaces being left blank in order to see whether the website would acuse the user of a mandatory space that had to be filled out. Another test has been done through emailJS emailing myself to see whether this software would respond me back.
+
 ![CineShow contact form](/assets/images/contact_pic.PNG)
 
 * **Result**    
@@ -209,16 +210,6 @@ JS skills were missing to do a better job here. The required piece of code insid
 * **Verdict**    
 Bug was resolved and form now works as planned. 
 
-#### Hero Image
-
-* **Bug**    
-The hero image looked very good on big screens but it would not look that good when the screen reduced size.
-
-* **Fix**    
-After talking to my mentor we came up with a solution in order to fix this problem which was changing the background-attachment to scroll on mobile.
-
-* **Verdict**    
-Image now shows nicely on all devices and browsers.
 
 #### Hamburger dropdown menu
 
