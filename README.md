@@ -135,12 +135,11 @@ This contact banner has been created in order to link the person to the contact 
 * [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* [Axios](https://www.npmjs.com/package/axios)
 * [EmailJS](https://emailjs.com)
 * [Leaflet](https://leafletjs.com)
 * [SweetAlert](https://sweetalertjs.js.org)
 
-![CSS Validation](assets/images/testing_css.PNG)
+![CSS Validation](/assets/images/testing_css.PNG)
 
 ## Testing
 ### Navigation bar
@@ -188,7 +187,7 @@ To be able to forward with this plan, I have picked the form code from [bootstra
 
 * **Test**    
 The test used on the contact form was through filling the form many times with some spaces being left blank in order to see whether the website would acuse the user of a mandatory space that had to be filled out. Another test has been done through emailJS emailing myself to see whether this software would respond me back.
-![Gym contact form]()
+![CineShow contact form](/assets/images/contact_pic.PNG)
 
 * **Result**    
 It worked actually fine and really had the results that it was expected for.
