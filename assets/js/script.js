@@ -33,7 +33,7 @@ function getMovies(movieName) {
                                         <h5>${movie.Title}</h5>
                                     </div>
                                
-                                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butao2" href="#">Movie Details <i class="fas fa-film"></i></a>
+                                    <a onclick="movieSelected('${movie.imdbID}')" class="btn butaoPurple" href="#">Movie Details <i class="fas fa-film"></i></a>
                                 </div>
                         </div>
                     `;
@@ -87,12 +87,12 @@ function getMovie() {
                 </div>
                 <div class="row">
                     <div class="col-sm-12 img-poster-md">
-                        <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butao3">View IMDB</a>
+                        <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butaoCinema">View IMDB</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <a href="index.html" class="btn butao3">Go Back To Search</a>
+                        <a href="index.html" class="btn butaoCinema">Go Back To Search</a>
                     </div>
                 </div>
             `;

@@ -36,7 +36,7 @@ $(document).ready(function () {
                             <p class="lead">17 O'Connell Street Upper, North City, Dublin 1</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -68,7 +68,7 @@ $(document).ready(function () {
                             <p class="lead">The Parnell Centre, Parnell St, Rotunda, Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://www.cineworld.ie/#/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -100,7 +100,7 @@ $(document).ready(function () {
                             <p class="lead">Stillorgan Plaza, Lower Kilmacud Rd, Stillorgan, Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -133,7 +133,7 @@ $(document).ready(function () {
                             <p class="lead">Blanchardstown Shopping Centre, Blanchardstown Road South, Blanchardstown, Co. Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -166,7 +166,7 @@ $(document).ready(function () {
                             <p class="lead">84 Malahide Rd, Donaghmede, Coolock, Co. Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
@@ -199,7 +199,7 @@ $(document).ready(function () {
                             <p class="lead">Bloomfield Shopping Centre, George's Street Lower, Dún Laoghaire, Co. Dublin</p>
                             <h5>Website</h5>
                             <p class="lead">https://imccinemas.ie/</p>
-                            <a type="submit" class="btn butao2" href="cinemas.html">Back to cinemas</a>
+                            <a type="submit" class="btn butaoPurple" href="cinemas.html">Back to cinemas</a>
                         </figure>
                     </div>
                     <div class="col-md-5">
