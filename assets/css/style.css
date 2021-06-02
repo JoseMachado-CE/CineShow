@@ -404,10 +404,15 @@ footer {
     }
 
     #map {
-        margin-top: 20px;
+        margin-top: 130px;
     }
 
     #searchText {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .butaoCinema {
         width: 80%;
         margin-left: 10%;
     }
