@@ -52,7 +52,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker2.addTo(layerGroup);
+        let marker = marker2.addTo(layerGroup);
         marker.bindPopup("Cineworld Cinemas").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -84,7 +84,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker3.addTo(layerGroup);
+        let marker = marker3.addTo(layerGroup);
         marker.bindPopup("ODEON Stillorgan").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -117,7 +117,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker4.addTo(layerGroup);
+        let marker = marker4.addTo(layerGroup);
         marker.bindPopup("ODEON Blanchardstown").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -150,7 +150,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker5.addTo(layerGroup);
+        let marker = marker5.addTo(layerGroup);
         marker.bindPopup("ODEON Coolock").openPopup();
         $('#display-here').html(`
                      <div class="container">
@@ -183,7 +183,7 @@ $(document).ready(function () {
         e.preventDefault();
         layerGroup.clearLayers();
         map.closePopup();
-        marker = marker6.addTo(layerGroup);
+        let marker = marker6.addTo(layerGroup);
         marker.bindPopup("IFM Dun Laoghaire").openPopup();
         $('#display-here').html(`
                      <div class="container">
