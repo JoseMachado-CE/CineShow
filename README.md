@@ -1,4 +1,4 @@
-# [CineShow](https://github.com/JoseMachado-CE/CineShow)
+# [CineShow](josemachado-ce.github.io/cineshow/)
 ![Mock up image](/assets/images/mockup_cineshow.PNG)
 This website has been created with the purpose of showing people a great variety of movies and cinemas around Dublin. It has been a great honor to be able to do this project and show my skills to whoever wants to see the project. Please, do not hesitate to leave a message in my github profile.
 
@@ -20,6 +20,8 @@ This website has been created with the purpose of showing people a great variety
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features to be implemented](#features-to-be-implemented)
+* [API](#features)
+    * [How to use your own API](#own-api)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
     * [Libraries and Frameworks](#tools-and-libraries)
@@ -35,6 +37,7 @@ This website has been created with the purpose of showing people a great variety
   * A website that manages to display well all colors on the screen. 
   * A good and well formated contact form on the website.
   * Addresses of cinemas in Dublin.
+
 ### User Stories
   * A user wants to easily find the details about the movies.
   * A user wants to easily find the details about the cinemas in Dublin.
@@ -43,10 +46,13 @@ This website has been created with the purpose of showing people a great variety
   * A user wants to find the cinemas locations displayed on a map.
   * A user wants to navigate smooth on the webiste displayed on tablets and cellphones.
   * A user wants to find different social medias associated to the website.
+  * A user wants to easily get in touch with the site's owner.
+
 ### Site Owners Goals
   * Advertise the CineShow.
   * In the middle of a pandemic where people find themselves lockded up in the houses, this website has the purpose of showing people good movies on IMDB and once everything is back open again, people can reach CineShow website in order to look for cinemas in Dublin.
   * Help people who is struggling locked in their own houses.
+
 ### User Requirements and Expectations
 #### Requirements
   * Easy to navigate.
@@ -59,11 +65,14 @@ This website has been created with the purpose of showing people a great variety
   * Relevant social medias.
   * Links that dont brake.
   * Quick return from website owner.
+
 ### Design Choices
 #### Fonts
   * The fonts chosen on this website came from [Google fonts](https://fonts.google.com/). This choice has been made because of the probability of working on any browser.
+
 #### Icons
   * Icons have been picked from [Font Awesome](https://fontawesome.com/).
+
 #### Colors
   * Colors have been picked up from [Color Hunt](https://https://colorhunt.co/).
   * I also used the website [Coloors](https://coolors.co/) for make the colors pallet.
@@ -88,9 +97,7 @@ I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 di
 ### [Tablet Wireframe](wireframes/ipad_wireframe.png)
 ### [Phone Wireframe](wireframes/phone_wireframe.png)
 
-* The tablet wireframe has changed a little bit. The schedule panels will be displayed in vertical.
-* The iphone wireframe and the desktop wireframe have changed only the contact button which got a bit smaller.
-* The footer content has changed on all wireframes. Now it only says BlasT@Jose.
+The wireframes really helped me to give me a perpespective on how the wesbite would be made out at the end. 
 
 ## Features
 ### 1. Existing Features
@@ -115,6 +122,13 @@ This contact banner has been created in order to link the person to the contact 
 * Links to external partners.
 * Database to store all customers data.
 * Chatbot to make user experience smoothier.
+
+## API
+### How to use the API with your own key
+* You can have access to the IMDB API using your own API key. You would need only to go to the file script.js and then change the apiKey for your own key.
+
+![apiKey](/assets/images/apiKEY.png)
+
 
 ## Technologies used
 ### Languages
