@@ -40,7 +40,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpeg">
                     </div> 
             </div>
                 `);
@@ -72,7 +72,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto low-cont d-none d-md-block" alt="" src="cine.jpg">
+                        <img class="img-fluid mx-auto low-cont d-none d-md-block" alt="" src="cineworld.jpeg">
                     </div>
             </div>
                 `);
@@ -104,7 +104,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="ostillorgan.jpeg">
                     </div>
                     
             </div>
@@ -137,7 +137,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="oblanchardstown.jpeg">
                     </div>
                     
             </div>
@@ -170,7 +170,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="ocoolock.jpeg">
                     </div>
                     
             </div>
@@ -203,7 +203,7 @@ $(document).ready(function () {
                         </figure>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="savoy.jpg">
+                        <img class="img-fluid mx-auto img-locatio-cine low-cont d-none d-md-block" alt="" src="dl.jpeg">
                     </div>
                     
             </div>
