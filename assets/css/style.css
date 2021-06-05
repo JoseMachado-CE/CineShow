@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', 'sans-serif';
 }
 
+
 .left,
 .right {
     height: 40vh;
@@ -408,6 +409,10 @@ footer {
         margin-top: 130px;
     }
 
+    .btn-contact {
+        width: 100%
+    }
+
     #searchText {
         width: 80%;
         margin-left: 10%;
@@ -416,5 +421,14 @@ footer {
     .butaoCinema {
         width: 80%;
         margin-left: 10%;
+    }
+
+    #contact {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .up-title {
+        font-size: 2vh;
     }
 }

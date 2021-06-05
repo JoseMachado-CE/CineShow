@@ -149,6 +149,7 @@ This contact banner has been created in order to link the person to the contact 
 * [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Javascript Validation](https://beautifytools.com/)
 * [EmailJS](https://emailjs.com)
 * [Leaflet](https://leafletjs.com)
 * [SweetAlert](https://sweetalertjs.js.org)
