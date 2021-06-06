@@ -23,11 +23,23 @@ body {
 }
 
 /* Navbar */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #9457eb;
+}
 
 .navbar {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10vh;
+    
+}
+
+.box-nav-sitee {
+    overflow: hidden;
+
 }
 
 .navbar-nav a {
@@ -121,7 +133,6 @@ body {
 
 .lead {
     color: #fff;
-
 }
 
 #contact {
@@ -323,6 +334,14 @@ footer {
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
 
+    header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #9457eb;
+    color: #fff;
+    }
+
     .contact-box-title {
         margin-left: 10%
     }
@@ -396,6 +415,15 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background-color: #9457eb;
+        color: #fff;
+    }
+
     .navbar-brand {
         font-size: 1rem;
     }
@@ -431,4 +459,5 @@ footer {
     .up-title {
         font-size: 2vh;
     }
+
 }

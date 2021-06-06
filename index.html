@@ -16,59 +16,58 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-   
-    
+
+
     <title>CineShow</title>
 </head>
 
 <body id="body">
-    <div class="hero-image">
-        <header>
-            <nav class="navbar container-fluid navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <a class="navbar-brand" aria-label="Top Brand" href="#"><i class="fas fa-film"></i> <span
-                            class="up-title">CINESHOW CINEMAS</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a id="active1" class="nav-link active" aria-label="Nav-item" href="index.html">Showtime
-                                    Movies</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-label="Nav-item" href="cinemas.html">Cinemas in Town</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-label="Nav-item" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+    <header>
+        <nav class="navbar container-fluid navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" aria-label="Top Brand" href="#"><i class="fas fa-film"></i> <span
+                        class="up-title">CINESHOW CINEMAS</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="active1" class="nav-link active" aria-label="Nav-item" href="index.html">Showtime
+                                Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Nav-item" href="cinemas.html">Cinemas in Town</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-label="Nav-item" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
-        <div class="container box-main-movie">
-            <div class="jumbotron">
-                <h3 class="text-center title-box purple-border">Search For Any Movie</h3>
-                <form id="searchForm">
-                    <input type="text" class="form-control purple-border1" id="searchText" placeholder="...">
-                </form>
-            </div>
-            <div>
-                <button id='buttonGen' class='btn'>Search</button>
-            </div>
+    <div class="container box-main-movie">
+        <div class="jumbotron">
+            <h3 class="text-center title-box purple-border">Search For Any Movie</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control purple-border1" id="searchText" placeholder="...">
+            </form>
         </div>
-        <div class="container">
-            <div id="movies" class="row"></div>
+        <div>
+            <button id='buttonGen' class='btn'>Search</button>
         </div>
+    </div>
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
 
     </div>
 
-    
+
 
     <div class="container  col-xxl-8 px-4 py-5 hide-bottom-cine">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -94,16 +93,14 @@
             <h2>Find IMDB on the social medias below</h2>
             <div class="socials">
                 <div class="social-icon">
-                    <a href="https://www.facebook.com/imdb/" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/imdb/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </div>
                 <div class="social-icon">
                     <a href="https://www.instagram.com/imdb/" target="_blank" class="icon"><i
                             class="fab fa-instagram"></i></a>
                 </div>
                 <div class="social-icon">
-                    <a href="https://twitter.com/imdb"
-                        target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/imdb" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
         </div>

@@ -134,6 +134,7 @@ This contact banner has been created in order to link the person to the contact 
 ### Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
 * [CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
+* [JavasCript(JQuery)](https://en.wikipedia.org/wiki/JavaScript) - used to incorporate behaviors to the website.
 
 ### Libraries and Frameworks
 * [Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
