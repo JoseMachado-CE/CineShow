@@ -1,4 +1,4 @@
-# [CineShow](josemachado-ce.github.io/cineshow/)
+# [CineShow](https://josemachado-ce.github.io/CineShow/)
 ![Mock up image](/assets/images/mockup_cineshow.PNG)
 This website has been created with the purpose of showing people a great variety of movies and cinemas around Dublin. It has been a great honor to be able to do this project and show my skills to whoever wants to see the project. Please, do not hesitate to leave a message in my github profile.
 
@@ -120,7 +120,7 @@ This contact banner has been created in order to link the person to the contact 
 
 ### Features to be implemented
 * Links to external partners.
-* Database to store all customers data.
+* Database to store all user data.
 * Chatbot to make user experience smoothier.
 
 ## API
@@ -185,7 +185,7 @@ The website has a contact form where the user can easily fill their information 
 
 * **Test**    
 I have tested the modal on various devices and browsers. 
-The modal was very successfull taking the customer to where I wanted.
+The modal was very successfull taking the user to where I wanted.
 
 * **Result**    
 The modal opened where and when it was supposed to happen.
@@ -199,7 +199,7 @@ The modal works as planned and it met all the criteria.
 I wanted to have a contact form where the user could go and easily fill out their information in order to receive updates from the website owner.
 
 * **Implementation**    
-To be able to forward with this plan, I have picked the form code from [bootstrap](https://getbootstrap.com) and then with a little help of CSS3 the form would be created. I also plan to implement emailJS where the customer would really get an email back from the website owner. 
+To be able to forward with this plan, I have picked the form code from [bootstrap](https://getbootstrap.com) and then with a little help of CSS3 the form would be created. I also plan to implement emailJS where the user would really get an email back from the website owner. 
 
 * **Test**    
 The test used on the contact form was through filling the form many times with some spaces being left blank in order to see whether the website would acuse the user of a mandatory space that had to be filled out. Another test has been done through emailJS emailing myself to see whether this software would respond me back.
@@ -218,7 +218,7 @@ The form does meet all the criteria and works as planned.
 #### Form validation
 
 * **Bug**    
-The customer is able to submit the form without filling all necessary information on the form. This is not the expected experience for the customer.
+The user is able to submit the form without filling all necessary information on the form. This is not the expected experience for the user.
 
 * **Fix**        
 JS skills were missing to do a better job here. The required piece of code inside the input tag could the job.
@@ -265,7 +265,7 @@ After writing the code I would save and then I would commit it and finally I wou
 1. Navigate to the repository on github and click **Settings**.
 1. From there, go to the **Source section** within the Github Pages section.
 1. Select **master branch** on the dropdown menu, and click save.
-1. Now the website is live on **https://github.com/JoseMachado-CE/CineShow**
+1. Now the website is live on **https://josemachado-ce.github.io/CineShow/**
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
 To run the project locally:
