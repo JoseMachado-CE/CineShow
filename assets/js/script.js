@@ -64,10 +64,10 @@ function getMovie() {
             let output = `
                 <div class="row">
                     <div class="col-sm-12 col-md col-lg-4">
-                        <img src="${movie.Poster}" class="thumbnail">
+                        <img src="${movie.Poster}" class=" poster-movie thumbnail">
                     </div>
                     <div class="col-sm-12 col-md col-lg-8">
-                        <h2>${movie.Title}</h2>
+                        <h2 class="poster-title">${movie.Title}</h2>
                         <ul class="list-group">
                         <li class="list-group-item"><strong>Genre:</strong> ${movie.Genre}</li>
                         <li class="list-group-item"><strong>Released:</strong> ${movie.Released}</li>
@@ -81,7 +81,7 @@ function getMovie() {
                 </div>
                 <div class="row movie-overview">
                     <div class="col">
-                        <h3>Movie Overview</h3>
+                        <h3 class="poster-overview">Movie Overview</h3>
                         ${movie.Plot}
                     </div>
                 </div>
@@ -103,6 +103,7 @@ function getMovie() {
         });
 }
 
+/* Swal Tool */
 function displayError(message) {
     Swal.fire({
         title: 'Error!',
