@@ -22,7 +22,7 @@ body {
     margin-top: 70px;
 }
 
-/* Navbar */
+/* header */
 header {
     position: sticky;
     top: 0;
@@ -204,6 +204,7 @@ header {
     margin-top: 2vh;
     display: flex;
     justify-content: center;
+    border-radius: 0;
 }
 
 .butaoCinema {
@@ -213,8 +214,8 @@ header {
     color: #fff;
     font-weight: bolder;
     border: 2px solid #fff;
-    width: 100%;
-    margin: 0.5rem;
+    width: 25%;
+    margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 #buttonGen1 {
@@ -231,6 +232,11 @@ header {
     margin-right: 35%;
 }
 
+/* -- Outcome after API -- */
+
+.poster-overview {
+    margin-top: 20px;
+}
 
 
 /* -- Footer -- */
@@ -297,7 +303,7 @@ footer {
     }
 
     .butaoCinema {
-        width: 100%
+        width: 50%
     }
 
     .purple-border {
@@ -329,6 +335,10 @@ footer {
 
     footer {
         margin-top: 40px;
+    }
+
+    .poster-overview {
+        margin-top: 20px;
     }
 }
 
@@ -412,6 +422,10 @@ footer {
         width: 30%;
         margin-left: 35%;
     }
+
+    .poster-title {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -447,8 +461,7 @@ footer {
     }
 
     .butaoCinema {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
     }
 
     #contact {
@@ -460,4 +473,15 @@ footer {
         font-size: 2vh;
     }
 
+    .poster-movie {
+        width: 100%;
+    }
+
+    .poster-title {
+        margin-top: 10px;
+    }
+
+    .poster-overview {
+        margin-top: 20px;
+    }
 }
