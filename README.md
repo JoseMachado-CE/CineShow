@@ -178,10 +178,10 @@ The test has passed all the criteria and works like planned.
 
 ### Modals
 * **Plan**    
-I wanted to implement 2 modals where the first of them would be the client fills out their details in a form and then to have a robot chat where it could answer the client straight away.
+I wanted to implement 2 modals where the first of them would be the user fills out their details in a form and then to have a robot chat where it could answer the user straight away.
 
 * **Implementation**    
-The website has a contact form where the user can easily fill their information and even get emails back from the website owner. Although, I believe I do not have enough skills to come up with a robot to respond the users straigh away.
+The website has a contact form where the user can easily fill their information and even get emails back from the website owner. The ease and quick answer from the website owner will be possible because of the tool emailJS.
 
 * **Test**    
 I have tested the modal on various devices and browsers. 
@@ -218,12 +218,12 @@ The form does meet all the criteria and works as planned.
 #### Form validation
 
 * **Bug**    
-The user is able to submit the form without filling all necessary information on the form. This is not the expected experience for the user.
+The user was having problems submitting the form because of missing information needed to submit the form and this feedback saying why the form was not being submitted was not being shown on the screen.
 
 * **Fix**        
-JS skills were missing to do a better job here. The required piece of code inside the input tag could the job.
+Through a couple of JS code and CSS I could have a a sentence in red saying why the form was not being submitted and one message in green for a successfull message.
 
-* **Verdict**    
+* **Verdict**     
 Bug was resolved and form now works as planned. 
 
 
@@ -249,13 +249,15 @@ Icons now show nicely next to each other on all devices and browsers.
 #### Navigation menu on smaller screensizes 
 
 * **Bug**    
-I noticed the same bug mentioned above with the button not working properly after clicking the button.
+I noticed that the cinema buttons had no margin at the bottom making the them be over the map.
 
 * **Fix**        
-I fixed the CDN JS code which has provided by Bootstrap.
+I fixed the map js code adding some margin bottom to the buttons.
 
 * **Verdict**    
-Bug was solved making the user experience good.
+Bug was solved making the user experience better.
+
+![Cinemas section](/assets/images/bottombuttons.PNG)
 
 ## Deployment
 
