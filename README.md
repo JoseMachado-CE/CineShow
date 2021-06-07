@@ -1,5 +1,5 @@
 # [CineShow](https://josemachado-ce.github.io/CineShow/)
-![Mock up image](/assets/images/mockup_cineshow.PNG)
+![Mock up image](/assets/images/mockimage.PNG)
 This website has been created with the purpose of showing people a great variety of movies and cinemas around Dublin. It has been a great honor to be able to do this project and show my skills to whoever wants to see the project. Please, do not hesitate to leave a message in my github profile.
 
 ---
@@ -233,18 +233,20 @@ Bug was resolved and form now works as planned.
 On mobile devices the navigation bar would collapse but I noticed that it would not open after clicking on the button.
 
 * **Verdict**   
-After some researchs I could verify that my JS CDN code from boostrap was wrong so I fixed it and then the hambuguer button was working and openning normally.
+After some researchs I could verify that my JS code from boostrap was wrong so I fixed it and then the hambuguer button was working and openning normally.
 
 #### Icons
 
 * **Bug**    
-The socia media icons was not being displayed properly on mobile screens. It would not bring a good experience to the user when surfing the website.
+The socia media icons was not being displayed properly on the screen. There had big gaps between each icons and still a big gap from the right margin of the screen.
 
 * **Fix**    
-I made it look smaller on mobile screen and I added a space between each icon.
+I had to add a display flex to the footer along with a justify-content to the footer in order to have the icons displayed centered.
 
 * **Verdict**    
 Icons now show nicely next to each other on all devices and browsers. 
+
+![Footer section](/assets/images/footericons.PNG)
 
 #### Navigation menu on smaller screensizes 
 
