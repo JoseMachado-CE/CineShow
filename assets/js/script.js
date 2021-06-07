@@ -87,12 +87,12 @@ function getMovie() {
                 </div>
                 <div class="row">
                     <div class="col-sm-12 img-poster-md">
-                        <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butaoCinema">View IMDB</a>
+                        <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn butao-outcome-api">View IMDB</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <a href="index.html" class="btn butaoCinema">Go Back To Search</a>
+                        <a href="index.html" class="btn butao-outcome-api">Go Back To Search</a>
                     </div>
                 </div>
             `;
